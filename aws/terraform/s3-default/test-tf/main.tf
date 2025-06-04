@@ -10,6 +10,7 @@ resource "aws_dynamodb_table" "test_table_a" {
 resource "aws_lambda_function" "myfunction" {
 }
 
+
 resource "aws_appsync_graphql_api" "test_api" {
   authentication_type = "API_KEY"
 }
