@@ -15,4 +15,5 @@ resource "aws_appsync_graphql_api" "test_api" {
 }
 
 resource "aws_keyspaces_table" "mykeyspacestable" {
+
 }
