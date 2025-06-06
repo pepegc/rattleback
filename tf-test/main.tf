@@ -12,6 +12,7 @@ resource "aws_lambda_function" "myfunction" {
 
 resource "aws_appsync_graphql_api" "test_api" {
   authentication_type = "API_KEY"
+
 }
 
 resource "aws_keyspaces_table" "mykeyspacestable" {
