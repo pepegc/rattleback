@@ -8,6 +8,7 @@ This is an apt comparison to the ecosystem of security tools.  Some IaC is devel
 
 This repo is intended to be used in the following ways:
 
+
 ### CSPM / SIEM Testing
 
 CSPMs and many tools in the security space actually check the final result of the IaC files.  Then then generally alert a human to decide how to remediate.
