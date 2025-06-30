@@ -5,6 +5,7 @@ provider "aws" {
 data "aws_region" "current" {}
 
 resource "aws_dynamodb_table" "test_table_a" {
+
 }
 
 resource "aws_lambda_function" "myfunction" {
